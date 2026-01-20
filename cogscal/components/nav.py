@@ -11,7 +11,7 @@ style = {
 
 def nav() -> rx.Component:
     return rx.vstack(
-        rx.heading("Cogscal", color_scheme="teal", margin_bottom="1rem"),
+        rx.heading("Cogscal", color=rx.color("accent", 10), margin_bottom="1rem"),
         rx.link("Home", href="/"),
         rx.link("Gears", href="/gears"),
         rx.link("Bearings", href="/bearings"),

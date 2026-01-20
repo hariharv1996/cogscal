@@ -14,7 +14,8 @@ def index() -> rx.Component:
         nav(),
         rx.vstack(
             rx.heading(
-                "Welcome to ", rx.text("Cogscal", as_="span", color_scheme="teal")
+                "Welcome to ",
+                rx.text("Cogscal", as_="span", color=rx.color("accent", 10)),
             ),
             rx.text(
                 "A full stack gearbox machine element calculation and database maintenance web application built with ",
